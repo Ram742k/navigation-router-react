@@ -28,7 +28,7 @@ The navigation menu should be structured as follows:
 │ ├── index.html
 │ └── ...
 ├── src/
-│ ├── components/
+│ ├── Pages/
 │ │ ├── Navigation.js
 │ │ ├── All.js
 │ │ ├── FullStackDevelopment.js

@@ -9,7 +9,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+   <div className='container'>
+       <div className="App">
       <nav className="navigation">
          <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : '')}>All</NavLink>
         <NavLink to="/full-stack-development" className={({ isActive }) => (isActive ? 'active' : '')}>Full Stack Development</NavLink>
@@ -25,6 +26,7 @@ function App() {
         <Route path="/career" element={<Career />} />
       </Routes>
     </div>
+   </div>
   );
 }
 
